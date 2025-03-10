@@ -1,4 +1,5 @@
 # language: es
+@Web
 Característica: Registro e Inicio de Sesión
 
   Antecedentes:

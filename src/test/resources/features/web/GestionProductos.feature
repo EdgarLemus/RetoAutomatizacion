@@ -1,5 +1,5 @@
 # language: es
-
+@Web
 Característica: Gestión de Productos
 
   Antecedentes:

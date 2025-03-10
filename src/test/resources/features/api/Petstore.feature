@@ -1,4 +1,5 @@
 # language: es
+@api
 Característica: Gestión de Mascotas
 
   Antecedentes:
@@ -16,7 +17,6 @@ Característica: Gestión de Mascotas
     #Data:src/main/resources/DataEntry/Petstore.xlsx|E01
 |0|1|Gay_Lehner|Pug_Luna|https://sources.pupvote.com/posts/61fa69c39477f8.93970740_480x480.jpg|101|friendly|available|
 
-#
   Escenario: Verificar mascota agregada
     Cuando consulto la información de la mascota
     Entonces la mascota debe ser consultada correctamente en la API

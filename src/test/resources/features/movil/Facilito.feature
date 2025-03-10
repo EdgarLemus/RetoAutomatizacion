@@ -1,4 +1,5 @@
 # language: es
+@Mobile
 Característica: Validacion E2E aplicativo Facilito
 
   Antecedentes: 

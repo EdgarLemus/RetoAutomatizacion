@@ -18,10 +18,19 @@ CSB-Examen-Automatizacion/
 │── src/
 │   ├── main/
 │   │   ├── java/  # Código principal de automatización
+│   │   │   ├── driver
+│   │   │   ├── tasks
+│   │   │   ├── interactions
+│   │   │   ├── utils
+│   │   │   ├── uis
+│   │   │   ├── questions
 │   │   ├── resources/
-│   │   │   ├── features/  # Archivos feature de Cucumber
 │   │   │   ├── DataEntry/  # Archivos JSON y XLSX para pruebas
 │   ├── test/
+│   │   │   ├── runners
+│   │   │   ├── stepsdefintions
+│   ├── resources/
+│   │   │   ├── features  
 │── build.gradle  # Configuración de Gradle
 │── README.md  # Este archivo
 ```
@@ -48,17 +57,17 @@ CSB-Examen-Automatizacion/
 
 ### 🔹 Pruebas API
 ```sh
-./gradlew test -Dcucumber.options="src/main/resources/features/api"
+gradle clean test -Dcucumber.options="--tags @api"
 ```
 
 ### 🔹 Pruebas Web
 ```sh
-./gradlew test -Dcucumber.options="src/main/resources/features/web"
+gradle clean test -Dcucumber.options="--tags @Web"
 ```
 
 ### 🔹 Pruebas Móviles
 ```sh
-./gradlew test -Dcucumber.options="src/main/resources/features/mobile"
+gradle clean test -Dcucumber.options="--tags @Mobile"
 ```
 
 ## 📜 Casos de Prueba Implementados
