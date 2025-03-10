@@ -15,7 +15,6 @@ Característica: Gestión de Mascotas
     Ejemplos:
       | Id | CategoryId | CategoryName | Name     | PhotoUrls                                                             | TagsId | TagsName | Status    |
     #Data:src/main/resources/DataEntry/Petstore.xlsx|E01
-|0|1|Gay_Lehner|Pug_Luna|https://sources.pupvote.com/posts/61fa69c39477f8.93970740_480x480.jpg|101|friendly|available|
 
   Escenario: Verificar mascota agregada
     Cuando consulto la información de la mascota
@@ -33,7 +32,6 @@ Característica: Gestión de Mascotas
     Ejemplos:
       | Id     | CategoryId | CategoryName | Name            | PhotoUrls                                                             | TagsId | TagsName | Status    |
     #Data:src/main/resources/DataEntry/Petstore.xlsx|E02
-|752687|1|Gay_Lehner|PugCarlino_Luna|https://sources.pupvote.com/posts/61fa69c39477f8.93970740_480x480.jpg|101|friendly|available|
 
   Escenario: Verificar nombre de mascota modificado
     Cuando consulto la información de la mascota

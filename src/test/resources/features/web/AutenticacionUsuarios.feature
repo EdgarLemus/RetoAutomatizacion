@@ -21,7 +21,6 @@ Característica: Registro e Inicio de Sesión
     Ejemplos:
       | Username   | Password     |
     #Data:src/main/resources/DataEntry/AutenticacionUsuario.xlsx|E01
-|EdgarLemus|Pruebas2025*|
 
   @CP03
   Esquema del escenario: CA09 - Cierre de sesión
@@ -33,4 +32,3 @@ Característica: Registro e Inicio de Sesión
     Ejemplos:
       | Username   | Password     |
     #Data:src/main/resources/DataEntry/AutenticacionUsuario.xlsx|E01
-|EdgarLemus|Pruebas2025*|
